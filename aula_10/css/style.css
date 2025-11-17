@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap&#39;');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.buttercms.com/GnaqqRBTcCuoRELL938w);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+   
+    font-family: 'MedievalSharp', cursive; 
+    color: #f0e6d2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-shadow: 2px 2px 4px #000; 
+}
+
+.container {
+    background-color: rgba(18, 12, 8, 0.85); 
+    border: 3px solid #ff0000; 
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); 
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ff0000; 
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+#userInput {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #ffffff; 
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.2em;
+    color: #3f0606; 
+    text-shadow: none; 
+}
+
+#actionButton {
+    background-color: #000000; 
+    color: #ff0000;
+    border: 3px solid #ff0000; 
+    padding: 15px 30px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.3em;
+    cursor: pointer;  
+    border-radius: 50px; 
+    transition: all 0.3s ease;
+}
+
+#actionButton:hover {
+    background-color: #ffffff; 
+    transform: scale(1.05); 
+}
+
+#resposta {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #ffffff; 
+    min-height: 50px; 
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 10px;
+    margin-top: 10px;
+    color: rgb(41, 41, 41);
+}

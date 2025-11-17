@@ -1,0 +1,27 @@
+/* #2C302E cinza-escuro
+#474A48 cinza-chumbo
+#909590 cinza
+#9AE19D verde-claro
+#537A5A verde-escuro */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cinza-escuro: #2C302E;
+    --cinza-chumbo: #474A48;
+    --cinza: #909590;
+    --verde-claro: #9AE19D;
+    --verde-escuro: #537A5A;
+}
+body {
+    background-color: var(--verde-escuro);
+}
+header {
+    width: 100vw;
+    height: 12vh;
+    background: linear-gradient(300deg, var(--verde-escuro), var(--verde-claro));
+    padding: 15px;
+}

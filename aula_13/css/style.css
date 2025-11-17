@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#container {
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caroussel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40vw;
+    height: 100%;
+}
+
+#caroussel-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* Classes de cor */
+
+.bg-aqua {
+    background-color: aqua;
+}
+
+.bg-tomato {
+    background-color: tomato;
+}
+
+.bg-orange {
+    background-color: orange;
+}
