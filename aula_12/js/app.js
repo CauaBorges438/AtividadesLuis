@@ -1,2 +1,0 @@
-let resposta = document.getElementById('r');
-resposta.innerText = "Igual aquela menina, da rua mendingando, que um dia sonhou que era princesa e hoje vive de ilusão, mas não perde a esperança de um dia ser feliz, como todas as outras meninas.";
